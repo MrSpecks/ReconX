@@ -1,5 +1,56 @@
 import requests
+import tweepy
 from bs4 import BeautifulSoup
+
+# Authenticate with the Twitter API
+#def twitter_authenticate(api_key, api_secret, access_token, access_token_secret):
+#    """Authenticate with the Twitter API."""
+#    auth = tweepy.OAuthHandler(api_key, api_secret)
+#    auth.set_access_token(access_token, access_token_secret)
+    
+#    api = tweepy.API(auth, wait_on_rate_limit=True)
+#    return api
+
+#def get_twitter_profile(api, username):
+ #   """Retrieve Twitter profile information."""
+ #   try:
+  #      user = api.get_user(screen_name=username)
+        
+        # Fetch basic profile information
+#        profile_info = {
+#            "username": user.screen_name,
+#            "name": user.name,
+#            "bio": user.description,
+#            "followers_count": user.followers_count,
+#            "following_count": user.friends_count,
+#            "tweets_count": user.statuses_count,
+#            "profile_image_url": user.profile_image_url_https,
+#            "created_at": user.created_at,
+#        }
+        
+        # Return the profile information as a dictionary
+#        return profile_info
+#    except tweepy.TweepError as e:
+#        return f"Error: {e}"
+
+#def search_twitter_profiles(api, query, num_results=5):
+#    """Search for Twitter profiles based on a query."""
+#    try:
+#        # Search Twitter for profiles related to the query
+ #       users = tweepy.Cursor(api.search_users, q=query, count=num_results).items(num_results)
+#        
+#        profiles = []
+#        for user in users:
+#            profiles.append({
+#                "username": user.screen_name,
+#                "name": user.name,
+#                "bio": user.description,
+#                "followers_count": user.followers_count,
+#                "profile_image_url": user.profile_image_url_https
+#            })
+#        return profiles
+#    except tweepy.TweepError as e:
+#        return f"Error: {e}"
 
 def google_search(query, num_results=5):
     """Performs a simple Google search and extracts links."""
