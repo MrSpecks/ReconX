@@ -38,6 +38,8 @@ Setting up **ReconX** is straightforward. Here's how to get started:
 git clone <repo-url>
 cd reconx
 
+---
+
 ## Contributing
 Have a feature in mind? Want to improve the tool or fix a bug? **ReconX** is open-source, and contributions are welcome.
 
