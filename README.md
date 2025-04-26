@@ -37,6 +37,7 @@ Setting up **ReconX** is straightforward. Here's how to get started:
 ```bash
 git clone <repo-url>
 cd reconx
+```
 
 ---
 
