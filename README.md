@@ -39,6 +39,26 @@ git clone <repo-url>
 cd reconx
 ```
 
+### **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+### **Run the Tool**
+To launch the tool, simply execute the following command:
+```bash
+python reconx.py -h
+```
+---
+
+## **Getting Started**
+
+Start your reconnaissance process by targeting domains or IPs. For example, use the following command to scan a domain:
+```bash
+python reconx.py -d example.com
+```
+As the tool evolves, more features will be added to enhance its OSINT gathering prowess. Stay tuned for updates that will expand its capabilities.
+
 ---
 
 ## Contributing
